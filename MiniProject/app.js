@@ -2,7 +2,7 @@ import * as ELEMENTS from 'elements.js';
 import {Http} from 'http.js';
 import {WeatherData, WEATHER_PROXY_HANDLER} from 'weather-data.js';
 
-const API_KEY = '70066e9a0896904745bb767a13326fb0';
+const API_KEY = ''; //API Key for OpenWeatherMap api
 
 ELEMENTS.ELEMENT_SEARCH_BUTTON.addEventListener('click', searchWeather);
 
